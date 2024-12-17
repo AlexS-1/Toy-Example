@@ -22,5 +22,3 @@ def main():
         print("Variable is False")
 
 main()
-
-
