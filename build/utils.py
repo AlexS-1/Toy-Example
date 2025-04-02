@@ -1,12 +1,16 @@
 def functionality(variable):
     # BLOCK: If-Else Block
     # BLOCK: To execute multiple lines of code
+    res = ""
     if variable == True:
-        print("Variable is True")
+        res += ("Variable is True")
     else:
-        print("Variable is False")
+        res += ("Variable is not True")
 
     # BLOCK: For Loop
     # BLOCK: To iterate over a sequence
     for i in range(int(variable*10)):
-        print("Variable is bigger than 0,", i)
+        res += f"\nVariable is bigger than 0, {i}"
+    
+    print(res)
+    return res

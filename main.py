@@ -1,5 +1,6 @@
 from matplotlib.pylab import rand
 from build.utils import functionality
+from build.test import test
 
 def main():
     """
@@ -19,3 +20,4 @@ def main():
     functionality(variable)
 
 main()
+test()
